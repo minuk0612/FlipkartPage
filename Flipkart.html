@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            flipcart.com
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    *{
+        margin: 0%;
+        
+    }
+
+body{
+   
+    background-color: rgb(236, 235, 235);
+}
+
+.header{
+    background-color: #2874f0;
+    height: 8vh;
+    width: 100%;
+    position: -webkit-sticky;
+  position: sticky;
+    display: grid;
+    grid-template-columns:300px 540px 350px 80px auto;
+  /* background-color: aquamarine; */
+  top: 0;
+}
+
+#logo{
+    text-align: end;
+   
+    padding-top:10px;
+    /* padding-left: 200px; */
+  /* background-color: blue; */
+    width:100%;
+    height: 6vh;
+   
+  }
+.explore{
+    
+   /* margin-left: 370px; */
+    /* width:28%; */
+  text-align: end;
+    /* z-index: ; */
+    /* display: flex;
+    position: absolute;
+    top:29px;
+    left:220px; */
+    font-size: x-small;
+    color: aliceblue;
+    font-style: italic;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.explore:hover{
+    text-decoration: underline;
+}
+.searchbar{
+ width:100%;  
+background-color: white;
+height:5vh;
+margin-top: 10px;
+margin-left: 10px;
+}
+.textinput{
+    width:90%;
+    float: left;
+   
+}
+
+.icon{
+    width:10%;
+    float:right;
+    text-align: center;
+    padding-top: 8px;
+    color: #2874f0;
+}
+input{
+    width:480px;
+    margin:8px;
+    border: none;
+    border: none;
+    outline: none;
+}
+#button{
+/* background-color: aqua; */
+width:350px;
+text-align: end;
+
+}
+button{
+    width:130px;
+    height: 32px;
+    background-color: white;
+    border: none;
+    color: #2874f0;
+    font-size: medium;
+    margin-top: 12px;
+    border-radius: 3%;
+    
+}
+#more1{
+ 
+    width:80%;
+    float:left;
+    text-align: right;
+    margin-top: 15px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+#arrow{
+  
+float: right;
+width:10%;
+margin-top: 20px;
+color: aliceblue;
+}
+.cart{
+    width:200px;
+    margin-top: 15px;
+    margin-left: 49px;
+    
+  
+}
+.carticon{
+    /* margin: 20px; */
+    font-size:x-large;
+    color: aliceblue;
+    width: 10%;
+    float: left;
+    padding-right: 6px;
+   
+}
+.carttext{
+float:left;
+width:90px;
+/* 
+margin-top: 10%; */
+  
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    /* font-weight: 600; */
+}
+.categories{
+background-color: white;
+height:16vh;
+box-shadow: 0px 0px 6px black;
+}
+th, td {
+  /* padding-top: 10px;
+  padding-bottom: 20px; */
+  padding-left: 30px;
+  padding-right: 40px;
+}
+td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.footer{
+    margin:5px;
+    background-color: white;
+}
+
+
+.footer2{
+    background-color:#080420;
+    height: 30vh;
+    color: white;
+}
+
+.tablelink{
+    float:left;
+    width:50%;
+}
+.tablelink2{
+    float:right;
+    width:50%;
+    /* padding-left: 30px; */
+    
+}   
+.vl {
+  border-left: 1px solid grey;
+  height: 100px;
+  margin-top: 50px;
+}
+.connect{
+    width: 100%;
+    background-color:#080420;
+    height: 10vh;
+    color: white;
+    border-top: 2px solid white;
+}
+</style>
+    </head>
+<body>
+<div class="header">
+    <div id="logo">
+<img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png" alt="filpkart"height="20px" style="padding: 0%; margin: 0%; width:78px">
+<a href="Flipkart.html"><p class="explore">Explore <b style="color: yellow;">Plus</b>
+<img width="10" src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png">
+</p></a>
+</div>
+<div class="searchbar">
+<div class="textinput">
+    <input type="text"placeholder="Search for products, brands and more"/>
+</div>
+<div class="icon">
+    <i class="fa fa-search"></i>
+</div>
+</div>
+<div id="button">
+<button><b>Login</b></button>
+</div>
+<div id="more">
+    <div id="more1"><p>More</p></div>  
+
+<div id="arrow">
+    <i class="fa fa-angle-down"></i></div>
+</div>
+
+
+<div class="cart">
+    <div class="carticon"><i class="fa fa-shopping-cart" ></i></div>
+    <div class="carttext"><p>Cart</p></div>
+</div>
+</div>
+
+<div class="mainpage">
+<div class="categories">
+    <table style="margin-left: 130px;">
+        <tr>
+            <th><img src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100" alt="cate"style="height: 64px; width: 64px;"></th>
+            <th><img src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" alt="picture"style="height: 64px; width: 64px;"></th>
+            <th><img src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt="picture"style="height: 64px; width: 64px;"></th>
+            <th><img src="https://rukminim1.flixcart.com/flap/128/128/image/82b3ca5fb2301045.png?q=100" alt="picture"style="height: 64px; width: 64px;"></th>
+            <th><img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" alt="picture"style="height: 64px; width: 64px;"></th>
+            <th><img src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100" alt="picture"style="height: 64px; width: 64px;"></th>
+            <th><img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100" alt="picture"style="height: 64px; width: 64px;"></th>
+            <th><img src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" alt="picture"style="height: 64px; width: 64px;"></th>
+            <th><img src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100" alt="picture"style="height: 64px; width: 64px;"></th>
+
+        </tr>
+        <tr>
+           <td>Top Offers</td>
+           <td>Grocery</td>
+           <td>Mobiles</td>
+        <td>Fasion</td>
+        <td>Electronics</td>
+        <td>Home</td>
+        <td>Appliances</td>
+        <td>Travel</td>
+        <td>Beauty, Toys & More</td>
+        </tr>
+    </table>
+</div>
+</div>
+
+<div>
+    <img src="https://akm-img-a-in.tosshub.com/aajtak/images/photo_gallery/202110/flipkart_big_diwali_sale_3.jpg" style="width:98vw;height:50vh ;margin:1vw;">
+</div>
+<div class="footer">
+    <h3 >Top Stories:Brand Directory</h3>
+
+<p>
+<b>  MOST SEARCHED FOR ON FLIPKART</b>:iPhone 13iPhone 13 ProiPhone 13 Pro MaxiPhone 13 MiniTV & Appliances Big Billion Days SaleFlipkart Pay Later EMIBig Billion DaysFlipkart Motor Vehicle InsuranceFlipkart QuickEd A Mamma ClothingBooksFlipkart Electronics: TV & Home Appliances SaleGrand Kitchen & Home Appliances SaleAuto Accessories StoreStreak SunglassesGold CoinsBGM Big Billion Day SaleHome BBD Dhamaka SaleFlipkart PlusFlipkart Super CoinFlipkart COVID-19 InsuranceFlipkart Help CentreFlipkart Track OrdersFlipkart Manage OrdersFlipkart Return OrdersFlipkart Gift Cards StoreSareesFlipkart Axis Bank Credit CardFlipkart Pay LaterJewelleryWatchesGold CoinMangalsutraSunglassesMi SunglassesBackpacksRay Ban Sunglasses
+    MOBILES:iPhone 12 64GBiPhone 12 Pro 512GBiPhone 12 128GBVivo Y91iVivo Y11Vivo Y15Vivo Y50Vivo Y12Reno2 FOppo A12Oppo F15Oppo A31Samsung A71Samsung A51Samsung A31Realme X2Realme 5Infinix Hot 8iPhone 11iPhone 11 ProiPhone 11 Pro MaxMobile Offersiphone xiphone 8iphone 7iphone 6Redmi 5A4G MobileNokia MobileSamsung MobileiphoneOppo MobileVivo Mobile
+    CAMERA:GoPro Action CameraNikon CameraCanon CameraSony CameraCanon DSLRNikon DSLR
+    LAPTOPS:Microsoft Surface Go Pentium Gold 64GBMicrosoft Surface Go Pentium 128GBBranded LaptopsApple LaptopsAcer LaptopsLenovo LaptopsDell LaptopsAsus LaptopsHP LaptopsGaming Laptops2 in 1 LaptopsBusiness Laptops
+    TVS:TVs Big Billion Days SaleMotorola TVRedmi Smart TelevisionsOnePlus TVsRealme SLED 4K Smart TVsMI 43 Inch 4K TVMI 40 Inch TVMi 65 Inch TVSamsung 32 Smart TVLG TVTVSony TVSamsung TVMi 49 Inch Smart TVAndroid TelevisionIffalcon TvMi TV</p>
+
+</div>
+
+<div class="footer2">
+    <div>
+    <div class="tablelink">
+<table style="margin: 30px;">
+    <tr >
+        <th style="color: gray; padding-right: 80px;">ABOUT</th>
+        <th style="color: gray; padding-right: 80px;">HELP</th>
+        <th style="color: gray; padding-right: 80px;">POLICY</th>
+        <th style="color: gray; ">SOCIAL</th>
+    </tr>
+    <tr >
+        <th style=" padding-right: 80px; font-size: small;">Contact Us</th>
+        <th style=" padding-right: 80px;font-size: small;">Payments</th>
+        <th style=" padding-right: 80px;font-size: small;">Return Policy</th>
+        <th style="font-size: small; ">Facebook</th>
+    </tr>
+    <tr >
+        <th style=" padding-right: 80px; font-size: small;">Contact Us</th>
+        <th style=" padding-right: 80px;font-size: small;">Payments</th>
+        <th style=" padding-right: 80px;font-size: small;">Return Policy</th>
+        <th style="font-size: small; ">Facebook</th>
+    </tr>
+    <tr >
+        <th style=" padding-right: 80px; font-size: small;">Contact Us</th>
+        <th style=" padding-right: 80px;font-size: small;">Payments</th>
+        <th style=" padding-right: 80px;font-size: small;">Return Policy</th>
+        <th style="font-size: small; ">Facebook</th>
+    </tr>
+    <tr >
+        <th style=" padding-right: 80px; font-size: small;">Contact Us</th>
+        <th style=" padding-right: 80px;font-size: small;">Payments</th>
+        <th style=" padding-right: 80px;font-size: small;">Return Policy</th>
+        <th style="font-size: small; ">Facebook</th>
+    </tr>
+    <tr >
+        <th style=" padding-right: 80px; font-size: small;">Contact Us</th>
+        <th style=" padding-right: 80px;font-size: small;">Payments</th>
+        <th style=" padding-right: 80px;font-size: small;">Return Policy</th>
+        <th style="font-size: small; ">Facebook</th>
+    </tr>
+
+
+</table>
+</div>
+
+<div class="tablelink2">
+   <table style="padding-top: 30px;padding-left: 260px;">
+    
+    <tr >
+        <th style="color: gray; padding-right: 80px;">ABOUT</th>
+        <th style="color: gray; padding-right: 80px;">HELP</th>
+        
+    </tr>
+</table>
+</div>
+</div>
+
+
+</div>
+
+<div class="connect">
+<table>
+    <tr>
+        <th>
+            <a>
+                Sell on Flipkart
+            </a>
+        </th>
+        <th>
+            <a>
+                Sell on Flipkart
+            </a>
+        </th>
+        <th>
+            <a>
+                Sell on Flipkart
+            </a>
+        </th>
+        <th>
+            <a>
+                Sell on Flipkart
+            </a>
+        </th>
+        <th>
+            <a>
+                Sell on Flipkart
+            </a>
+        </th>
+        <th>
+            <a>
+                Sell on Flipkart
+            </a>
+        </th>
+    </tr>
+</table>
+</div>
+
+</body>
+
+
+
+</html>
